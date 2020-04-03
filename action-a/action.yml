@@ -7,6 +7,10 @@ inputs:
     description: "Who to greet"
     required: true
     default: "World"
+  MY_AGE:
+    description: "age of greeter"
+    required: true
+    default: 23
 
 runs:
   using: "docker"
